@@ -141,8 +141,7 @@ font-weight: 700;
     /* part-3 start */
 
     .part-3{
-        display: grid;
-        grid-template-columns: auto auto;
+        display: flex;
         max-width: 1140px;
         margin: auto;
         gap: 100px;
@@ -171,7 +170,7 @@ line-height: 26px;
         line-height: 26px;
         margin-left: 30px;
     }
-    .part-3 .part-3-btn{
+    .part-3 .part-3-text .part-3-btn{
         width: 174px;
 height: 52px;
 color: #FFF;
@@ -246,7 +245,7 @@ margin-top: 20px;
     /* part-2 end */
     /* part-3 start */
     .part-3{
-        grid-template-columns: auto;
+        flex-direction: column;
        max-width:480px ;
        margin: 0 auto;
        margin-top: -50px;
