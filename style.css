@@ -77,9 +77,9 @@ header .nav-icon{
         margin-top: 60px;
         border-radius: 16px;
     }
-    .part-2 {
+    /* .part-2 {
         justify-content: center;
-        text-align: center;
+        text-align: center; */
     }
     .part-2 .part-2-h1{
 color: #FFF;
@@ -192,7 +192,7 @@ margin-top: 20px;
 .part-4{
     max-width: 1140px;
         margin: 0 auto;
-        margin-right: 80px;
+        
 }
 .part-4 .part-4-h1{
     color: #131318;
@@ -277,7 +277,6 @@ border-radius: 16px;
    color: red;
    display: flex;
    justify-content: center;
-   position: relative;
    padding-top: 140px;
    color: #FFF;
 text-align: center;
@@ -293,8 +292,7 @@ font-weight: 800;
 
 .part-5{
     max-width: 1140px;
-    margin: auto;
-    margin-right: 80px;
+    margin: 0 auto;
 }
 .part-5 .part-5-h1{
     text-align: center;
@@ -365,6 +363,53 @@ margin-top: 30px;
 
 }
 
+/* part-5 end */
+
+/* part-6 start */
+
+.part-6{
+    max-width: 1140px;
+    margin: auto;
+    margin-top: 80px;
+}
+.part-6 .part-6-h1{
+    color: #131318;
+text-align: center;
+font-size: 40px;
+font-weight: 800;
+}
+.part-6 .part-6-p{
+    color: rgba(19, 19, 24, 0.70);
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+margin-bottom: 50px;
+}
+.part-6 .price-1{
+    height: 500px;
+    width: 1140px;
+    background-image: url("img/Group\ 39.png");
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    margin-bottom: 100px;
+}
+.part-6 .price-1 .price-card-1{
+    width: 579px;
+height: 389px;
+border-radius: 16px;
+border: 2px solid #FFF;
+background: rgba(255, 255, 255, 0.80);
+backdrop-filter: blur(2.5px);
+position: absolute;
+margin-left: 500px;
+margin-top: 58px;
+}
+.part-6 .price-1 ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
 /* mobail responsive */
 
 /* header part start */
@@ -434,7 +479,7 @@ margin-top: 30px;
        max-width:480px ;
        margin:auto;
        margin-top: -50px;
-       margin-left: 50px;
+       margin-left: 20px;
 
     }
     .part-3 .part-3-text .part-3-h1{
@@ -449,6 +494,7 @@ margin-top: 30px;
     .part-3 .part-3-img img{
         margin-top: -70px;
         width: 450px;
+        
     }
     /* part-3 end */
     /* part-4 start */
@@ -550,14 +596,17 @@ margin:0 auto;
     .part-5 .part-5-card .card-1{
         width: 450px;
         margin: auto;
+        height: 280px;
     }
     .part-5 .part-5-card .card-2{
         width: 450px;
         margin: auto;
+        height: 280px;
     }
     .part-5 .part-5-part-2 .card-3{
         width: 450px;
         margin: auto;
+        height: 280px;
         margin-top: 30px;
     }
 
